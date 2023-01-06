@@ -1,0 +1,26 @@
+{
+  "name": "kurami",
+  "version": "1.0.0",
+  "description": "A command console system for nodejs project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "kurami": "bin/kurami.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nesmon/Kurami.git"
+  },
+  "author": "Nenes",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/nesmon/Kurami/issues"
+  },
+  "homepage": "https://github.com/nesmon/Kurami#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}

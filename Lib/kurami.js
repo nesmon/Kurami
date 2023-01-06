@@ -1,9 +1,10 @@
 const fs = require('fs');
 const path = require('path');
+const config = require(path.resolve() + '/kurami.json');
 
 class Kurami {
     constructor() {
-        this.path = path.resolve() + '/Command'
+        this.path = path.resolve() + '/' + config.commandsPath
     }
 
     getCommandsInfo() {
@@ -12,8 +13,8 @@ class Kurami {
         let cleanCommandsList = this.cleanCommandsList(commands)
 
         return cleanCommandsList.map(commandFile => {
-            console.log(path.join(this.path, commandFile))
             const command = require(path.join(this.path, commandFile))
+
             return {
                 name: new command().getName(),
                 description: new command().getDescription(),
