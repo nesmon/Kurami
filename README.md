@@ -7,13 +7,13 @@ in reality it's just birth because needed to setup fixture in a project and want
 But you will probably find a better utility than me ^^
 
 ## Installation
-You can install it by using NPM or Yarn:
+You can install it by using NPM locally :
 ```bash
 npm install kurami
 ```
-
+or globally :
 ```bash
-yarn add kurami
+npm install -g kurami
 ```
 
 ## Setup
@@ -49,8 +49,11 @@ module.exports = TestCommand;
 
 ```
 
-Then run ``./node_modules/.bin/kurami {commandName}``
-You can add a npm script to run it more easily :
+### If installed globally
+Then run in your project ``kurami {commandName}`` in your project folder
+
+### If installed locally
+Then run ``./node_modules/.bin/kurami {commandName}`` in your project folder or add a npm script to run it more easily :
 ```json
 {
   "scripts": {

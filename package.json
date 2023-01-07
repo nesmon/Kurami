@@ -1,6 +1,6 @@
 {
   "name": "kurami",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A command console system for nodejs project",
   "main": "index.js",
   "scripts": {
