@@ -71,7 +71,8 @@ It's an experimental version, some problem persist like sometime the command did
 I'm fully open for suggestion and more ! :D
 
 ## Support me
-If you like my work, you can support me by buying me a coffee :D
+If you like my work, you can support me by buying me a coffee and/or following me on twitter :D
 
 <a href='https://ko-fi.com/O4O81EAUF' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 <a href="https://www.buymeacoffee.com/nesmon" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 36px !important;" ></a>
+<a href="https://twitter.com/MaidNenes" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/twitter/follow/Thomasbnt_?color=%231DA1F2&label=Follow%20me&labelColor=white&logo=Twitter&style=for-the-badge" alt="My Twitter profile" alt="My Twitter profile"/></a>

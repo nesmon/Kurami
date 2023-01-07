@@ -1,10 +1,10 @@
 const fs = require('fs');
 const path = require('path');
-const config = require(path.resolve() + '/kurami.json');
 
 class Kurami {
     constructor() {
-        this.path = path.resolve() + '/' + config.commandsPath
+        this.config;
+        this.path;
     }
 
     getCommandsInfo() {
@@ -36,6 +36,8 @@ class Kurami {
     }
 
     run(args) {
+        this.setConfig()
+
         const commands = this.getCommandsInfo()
 
         if (args[0] === "help" || args.length === 0) {
@@ -60,6 +62,16 @@ class Kurami {
         this.getCommandsInfo().map(command => {
             console.log(`- ${command.name} - ${command.description}`)
         })
+    }
+
+    setConfig() {
+        if (!fs.existsSync(path.resolve() + '/kurami.json')) {
+            console.log('Kurami config file not found.')
+            return process.exit()
+        }
+
+        this.config = require(path.resolve() + '/kurami.json');
+        this.path = path.resolve() + '/' + this.config.commandsPath
     }
 }
 
