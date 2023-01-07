@@ -22,5 +22,15 @@
   "dependencies": {
     "fs": "^0.0.1-security",
     "path": "^0.12.7"
-  }
+  },
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://www.buymeacoffee.com/nesmon"
+    },
+    {
+      "type": "individual",
+      "url": "https://ko-fi.com/O4O81EAUF"
+    }
+  ]
 }
